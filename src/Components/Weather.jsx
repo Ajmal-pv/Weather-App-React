@@ -27,8 +27,8 @@ const WeatherApp = () => {
  const search = async () => {
   try {
     if (city.trim() === '') {
-      return  toast.error('Enter correct Location!', {
-        position: 'top-center',
+      return  toast.error('Enter a valid Location!', {
+        position: 'top-right',
         autoClose: 3000, // The alert will close after 3 seconds
         hideProgressBar: false,
         closeOnClick: true,
